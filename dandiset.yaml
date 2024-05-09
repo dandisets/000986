@@ -7,20 +7,64 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 202312296
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Jaramillo, Santiago (2024) Neuropixels recordings from mouse auditory cortex
-  (and pupil diameter) during passive exposure to pure tones (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000986/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - PupilTracking
+  - Units
+  - ProcessingModule
+citation: Papadopoulos, Lia; Jaramillo, Santiago; Mazzucato, Luca (2024) Auditory
+  cortex Neuropixels recordings and pupil diameter during passive exposure to pure
+  tones (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000986/draft
 contributor:
+- includeInCitation: true
+  name: Papadopoulos, Lia
+  schemaKey: Person
 - affiliation: []
-  email: sjara.uoregon@gmail.com
+  awardNumber: ''
+  email: sjara@uoregon.edu
+  identifier: 0000-0002-6595-8450
   includeInCitation: true
   name: Jaramillo, Santiago
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCurator
+  - dcite:FundingAcquisition
+  - dcite:Software
   schemaKey: Person
+- awardNumber: ''
+  identifier: 0000-0002-8525-7539
+  includeInCitation: true
+  name: Mazzucato, Luca
+  schemaKey: Person
+- awardNumber: R01NS118461
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
 description: Extracellular recordings from the auditory cortex of awake head-fixed
   mice (using Neuropixels 1.0) during passive presentation of brief pure tones (2-32
@@ -33,8 +77,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000986/versions/draft/assets/
-name: Neuropixels recordings from mouse auditory cortex (and pupil diameter) during
-  passive exposure to pure tones
+name: Auditory cortex Neuropixels recordings and pupil diameter during passive exposure
+  to pure tones
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org
