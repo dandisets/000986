@@ -7,39 +7,15 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 202312296
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - PupilTracking
-  - Units
-  - ProcessingModule
-citation: Papadopoulos, Lia; Jaramillo, Santiago; Mazzucato, Luca (2024) Auditory
-  cortex Neuropixels recordings and pupil diameter during passive exposure to pure
-  tones (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000986/draft
+citation: Papadopoulos, Lia; Jaramillo, Santiago; Mazzucato, Luca; Suhyun Jo (2024)
+  Auditory cortex Neuropixels recordings and pupil diameter during passive exposure
+  to pure tones (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000986/draft
 contributor:
-- includeInCitation: true
+- email: liap@uoregon.edu
+  includeInCitation: true
   name: Papadopoulos, Lia
   schemaKey: Person
 - affiliation: []
@@ -65,6 +41,9 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- includeInCitation: true
+  name: Suhyun Jo
+  schemaKey: Person
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
 description: Extracellular recordings from the auditory cortex of awake head-fixed
   mice (using Neuropixels 1.0) during passive presentation of brief pure tones (2-32
