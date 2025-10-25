@@ -14,8 +14,8 @@ assetsSummary:
   schemaKey: AssetsSummary
 citation: Papadopoulos, Lia; Jo, Suhyun ; Zumwalt, Kevin; Wehr, Michael; Jaramillo,
   Santiago; McCormick, David A.; Mazzucato, Luca (2025) Auditory cortex Neuropixels
-  recordings and pupil diameter during passive exposure to pure tones (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
+  recordings and pupil diameter traces during passive exposure to pure tones (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
 contributor:
 - email: liap@uoregon.edu
   includeInCitation: true
@@ -55,9 +55,12 @@ contributor:
   name: Mazzucato, Luca
   schemaKey: Person
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
-description: Extracellular recordings from the auditory cortex of awake head-fixed
-  mice (using Neuropixels 1.0) during passive presentation of brief pure tones (2-32
-  kHz). The dataset also includes pupil diameter and running speed.
+description: 'This dataset contains: (1) extracellular recordings from auditory cortex
+  of awake head-fixed mice (using Neuropixels 1.0) during silence and during passive
+  presentation of brief pure tones (2-32 kHz); (2) normalized pupil diameter traces
+  throughout each recording session; (3) running speed traces throughout each recording
+  session. The dataset includes 15 sessions from 5 different mice. For more information
+  on the data acquisition and processing, please see the associated preprint at: https://doi.org/10.1101/2024.04.04.588209. '
 ethicsApproval:
 - {}
 id: DANDI:000986/draft
@@ -66,8 +69,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000986/versions/draft/assets/
-name: Auditory cortex Neuropixels recordings and pupil diameter during passive exposure
-  to pure tones
+name: Auditory cortex Neuropixels recordings and pupil diameter traces during passive
+  exposure to pure tones
 relatedResource:
 - {}
 repository: https://dandiarchive.org
@@ -76,4 +79,5 @@ schemaVersion: 0.6.7
 url: https://dandiarchive.org/dandiset/000986/draft
 version: draft
 wasGeneratedBy:
+- {}
 - {}
