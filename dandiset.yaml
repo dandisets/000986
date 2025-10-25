@@ -14,8 +14,8 @@ assetsSummary:
   schemaKey: AssetsSummary
 citation: Papadopoulos, Lia; Jo, Suhyun ; Zumwalt, Kevin; Wehr, Michael; Jaramillo,
   Santiago; McCormick, David A.; Mazzucato, Luca (2025) Auditory cortex Neuropixels
-  recordings and pupil diameter traces during passive exposure to pure tones (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
+  recordings and pupil diameter traces from mice during passive exposure to pure tones
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
 contributor:
 - email: liap@uoregon.edu
   includeInCitation: true
@@ -55,13 +55,14 @@ contributor:
   name: Mazzucato, Luca
   schemaKey: Person
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
-description: 'This dataset contains: (1) spike times of sorted units from Neuropixels
-  1.0 recordings of auditory cortex of head-fixed mice; recordings were made both
-  during silence and during passive presentation of brief pure tones (2-32 kHz); (2)
-  pre-processed and max-normalized pupil diameter traces throughout each recording
-  session; (3) pre-processed running speed traces throughout each recording session.
-  The dataset includes 15 sessions from 5 different mice. For more information on
-  the data acquisition and processing, please see the associated preprint at: https://doi.org/10.1101/2024.04.04.588209. '
+description: 'This dataset contains: (1) spike times of sorted units obtained from
+  Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session,
+  neural recordings were made during periods of silence (spontaneous activity) and
+  during passive presentation of brief pure tones (2-32 kHz, evoked activity); (2)
+  pre-processed and max-normalized pupil diameter traces for each recording session;
+  (3) pre-processed running speed traces for each recording session. The dataset includes
+  15 sessions from 5 different mice. For more information on the data acquisition
+  and processing, please see the associated preprint at: https://doi.org/10.1101/2024.04.04.588209. '
 ethicsApproval:
 - {}
 id: DANDI:000986/draft
@@ -70,8 +71,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000986/versions/draft/assets/
-name: Auditory cortex Neuropixels recordings and pupil diameter traces during passive
-  exposure to pure tones
+name: Auditory cortex Neuropixels recordings and pupil diameter traces from mice during
+  passive exposure to pure tones
 relatedResource:
 - {}
 repository: https://dandiarchive.org
