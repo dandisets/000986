@@ -55,12 +55,13 @@ contributor:
   name: Mazzucato, Luca
   schemaKey: Person
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
-description: 'This dataset contains: (1) extracellular recordings from auditory cortex
-  of awake head-fixed mice (using Neuropixels 1.0) during silence and during passive
-  presentation of brief pure tones (2-32 kHz); (2) normalized pupil diameter traces
-  throughout each recording session; (3) running speed traces throughout each recording
-  session. The dataset includes 15 sessions from 5 different mice. For more information
-  on the data acquisition and processing, please see the associated preprint at: https://doi.org/10.1101/2024.04.04.588209. '
+description: 'This dataset contains: (1) spike times of sorted units from Neuropixels
+  1.0 recordings of auditory cortex of head-fixed mice; recordings were made both
+  during silence and during passive presentation of brief pure tones (2-32 kHz); (2)
+  pre-processed and max-normalized pupil diameter traces throughout each recording
+  session; (3) pre-processed running speed traces throughout each recording session.
+  The dataset includes 15 sessions from 5 different mice. For more information on
+  the data acquisition and processing, please see the associated preprint at: https://doi.org/10.1101/2024.04.04.588209. '
 ethicsApproval:
 - {}
 id: DANDI:000986/draft
