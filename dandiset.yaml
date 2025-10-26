@@ -3,8 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
-about:
-- {}
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -129,22 +128,23 @@ contributor:
   schemaKey: Organization
 - awardNumber: CAREER Award 2238247
   identifier: https://ror.org/021nxhr62
+  name: National Science Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
 description: 'In these experiments, neural activity was recorded from auditory cortex
-  of behaving mice during passive tone presentation, while simultaneously monitoring
-  pupil-indexed arousal. This dataset contains: (1) spike times of sorted units obtained
-  from Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session,
-  neural recordings were made during periods of silence (spontaneous activity) and
-  during passive presentation of brief pure tones (2-32 kHz, evoked activity); (2)
-  pre-processed and max-normalized pupil diameter traces for each recording session;
-  (3) pre-processed running speed traces for each recording session. The dataset includes
-  15 sessions from 5 different mice. For more information on the data acquisition
-  and processing, please see the associated preprint at: https://doi.org/10.1101/2024.04.04.588209. '
-ethicsApproval:
-- {}
+  of behaving mice during passive tone presentation and arousal state was simultaneously
+  monitored using pupillometry. This dataset contains: (1) spike times of sorted units
+  obtained from Neuropixels 1.0 recordings of auditory cortex of head-fixed mice;
+  in each session, neural recordings were made during periods of silence (spontaneous
+  activity) and during passive presentation of brief pure tones (2-32 kHz, evoked
+  activity); (2) pre-processed and max-normalized pupil diameter traces for each recording
+  session; (3) pre-processed running speed traces for each recording session. The
+  dataset includes 15 sessions from 5 different mice. For more information on the
+  data acquisition and processing, please see the preprint associated with this dataset:
+  https://doi.org/10.1101/2024.04.04.588209.'
+ethicsApproval: []
 id: DANDI:000986/draft
 identifier: DANDI:000986
 license:
@@ -154,12 +154,20 @@ manifestLocation:
 name: Auditory cortex Neuropixels recordings and pupil diameter traces from mice during
   passive exposure to pure tones
 relatedResource:
-- {}
+- name: Data analysis and simulation code
+  relation: dcite:IsSupplementTo
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/lia-papadopoulos/PROJ_optimalCoding_arousal/tree/master
+- name: Modulation of metastable ensemble dynamics explains the inverted-U relationship
+    between tone discriminability and arousal in auditory cortex
+  relation: dcite:IsPublishedIn
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2024.04.04.588209
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 url: https://dandiarchive.org/dandiset/000986/draft
 version: draft
-wasGeneratedBy:
-- {}
-- {}
+wasGeneratedBy: []
