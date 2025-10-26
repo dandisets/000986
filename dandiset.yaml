@@ -20,17 +20,38 @@ contributor:
 - email: liap@uoregon.edu
   includeInCitation: true
   name: Papadopoulos, Lia
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:Software
   schemaKey: Person
 - includeInCitation: true
   name: 'Jo, Suhyun '
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Investigation
+  - dcite:Methodology
   schemaKey: Person
 - email: kzumwalt@uoregon.edu
   includeInCitation: true
   name: Zumwalt, Kevin
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
   schemaKey: Person
 - email: wehr@uoregon.edu
   includeInCitation: true
   name: Wehr, Michael
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  - dcite:FundingAcquisition
   schemaKey: Person
 - affiliation: []
   awardNumber: ''
@@ -43,17 +64,74 @@ contributor:
   - dcite:DataCurator
   - dcite:FundingAcquisition
   - dcite:Software
+  - dcite:Author
+  - dcite:Supervision
   schemaKey: Person
 - email: davidmc@uoregon.edu
   includeInCitation: true
   name: McCormick, David A.
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  - dcite:Conceptualization
+  - dcite:ContactPerson
   schemaKey: Person
 - awardNumber: ''
   email: lmazzuca@uoregon.edu
   identifier: 0000-0002-8525-7539
   includeInCitation: true
   name: Mazzucato, Luca
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:ProjectLeader
+  - dcite:Supervision
   schemaKey: Person
+- awardNumber: R01NS118461
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R35NS097287
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH127375
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  schemaKey: Organization
+- awardNumber: R01DA055439
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01AG077681
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01NS127305
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: CAREER Award 2238247
+  identifier: https://ror.org/021nxhr62
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
 description: 'In these experiments, neural activity was recorded from auditory cortex
   of behaving mice during passive tone presentation, while simultaneously monitoring
