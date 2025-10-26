@@ -55,8 +55,10 @@ contributor:
   name: Mazzucato, Luca
   schemaKey: Person
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
-description: 'This dataset contains: (1) spike times of sorted units obtained from
-  Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session,
+description: 'In these experiments, neural activity was recorded from auditory cortex
+  of behaving mice during passive tone presentation, while simultaneously monitoring
+  pupil-indexed arousal. This dataset contains: (1) spike times of sorted units obtained
+  from Neuropixels 1.0 recordings of auditory cortex of head-fixed mice; in each session,
   neural recordings were made during periods of silence (spontaneous activity) and
   during passive presentation of brief pure tones (2-32 kHz, evoked activity); (2)
   pre-processed and max-normalized pupil diameter traces for each recording session;
