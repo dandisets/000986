@@ -39,7 +39,7 @@ assetsSummary:
 citation: Papadopoulos, Lia; Jo, Suhyun ; Zumwalt, Kevin; Wehr, Michael; Jaramillo,
   Santiago; McCormick, David A.; Mazzucato, Luca (2025) Auditory cortex Neuropixels
   recordings and pupil diameter traces from mice during passive exposure to pure tones
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
+  (Version 0.251031.1939) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000986/0.251031.1939
 contributor:
 - email: liap@uoregon.edu
   includeInCitation: true
@@ -170,13 +170,14 @@ description: 'In these experiments, neural activity was recorded from auditory c
   dataset includes 15 sessions from 5 different mice. For more information on the
   data acquisition and processing, please see the preprint associated with this dataset:
   https://doi.org/10.1101/2024.04.04.588209.'
+doi: 10.48324/dandi.000986/0.251031.1939
 ethicsApproval: []
-id: DANDI:000986/draft
+id: DANDI:000986/0.251031.1939
 identifier: DANDI:000986
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000986/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000986/0.251031.1939/assets.yaml
 name: Auditory cortex Neuropixels recordings and pupil diameter traces from mice during
   passive exposure to pure tones
 publishedBy:
@@ -206,6 +207,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/000986/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000986/0.251031.1939
+version: 0.251031.1939
 wasGeneratedBy: []
