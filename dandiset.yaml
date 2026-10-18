@@ -3,7 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
-about: []
+about:
+- identifier: https://purl.brain-bican.org/ontology/mbao/MBA_247
+  name: Auditory areas
+  schemaKey: Anatomy
+- identifier: https://www.cognitiveatlas.org/concept/id/trm_59d184d0980bf
+  name: arousal (physical)
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -37,11 +43,16 @@ assetsSummary:
   - PupilTracking
   - Units
 citation: Papadopoulos, Lia; Jo, Suhyun ; Zumwalt, Kevin; Wehr, Michael; Jaramillo,
-  Santiago; McCormick, David A.; Mazzucato, Luca (2025) Auditory cortex Neuropixels
+  Santiago; McCormick, David A.; Mazzucato, Luca (2026) Auditory cortex Neuropixels
   recordings and pupil diameter traces from mice during passive exposure to pure tones
   (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
 contributor:
-- email: liap@uoregon.edu
+- affiliation:
+  - identifier: https://ror.org/0293rh119
+    name: University of Oregon
+    schemaKey: Affiliation
+  email: liap@uoregon.edu
+  identifier: 0000-0001-9961-2055
   includeInCitation: true
   name: Papadopoulos, Lia
   roleName:
@@ -52,7 +63,11 @@ contributor:
   - dcite:Methodology
   - dcite:Software
   schemaKey: Person
-- includeInCitation: true
+- affiliation:
+  - identifier: https://ror.org/0293rh119
+    name: University of Oregon
+    schemaKey: Affiliation
+  includeInCitation: true
   name: 'Jo, Suhyun '
   roleName:
   - dcite:Author
@@ -61,7 +76,12 @@ contributor:
   - dcite:Investigation
   - dcite:Methodology
   schemaKey: Person
-- email: kzumwalt@uoregon.edu
+- affiliation:
+  - identifier: https://ror.org/0293rh119
+    name: University of Oregon
+    schemaKey: Affiliation
+  email: kzumwalt@uoregon.edu
+  identifier: 0009-0006-2928-4651
   includeInCitation: true
   name: Zumwalt, Kevin
   roleName:
@@ -69,7 +89,12 @@ contributor:
   - dcite:DataCollector
   - dcite:DataCurator
   schemaKey: Person
-- email: wehr@uoregon.edu
+- affiliation:
+  - identifier: https://ror.org/0293rh119
+    name: University of Oregon
+    schemaKey: Affiliation
+  email: wehr@uoregon.edu
+  identifier: 0000-0003-3485-7697
   includeInCitation: true
   name: Wehr, Michael
   roleName:
@@ -92,6 +117,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 - email: davidmc@uoregon.edu
+  identifier: 0000-0002-9803-8335
   includeInCitation: true
   name: McCormick, David A.
   roleName:
@@ -151,14 +177,13 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: CAREER Award 2238247
+- awardNumber: '2238247'
   identifier: https://ror.org/021nxhr62
   name: National Science Foundation
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
-datePublished: '2025-10-31T19:39:47.771443+00:00'
 description: 'In these experiments, neural activity was recorded from auditory cortex
   of behaving mice during passive tone presentation and arousal state was simultaneously
   monitored using pupillometry. This dataset contains: (1) spike times of sorted units
@@ -173,24 +198,22 @@ description: 'In these experiments, neural activity was recorded from auditory c
 ethicsApproval: []
 id: DANDI:000986/draft
 identifier: DANDI:000986
+keywords:
+- Neuropixels
+- pupillometry
+- arousal state
+- passive tone presentation
+- spontaneous activity
+- running speed
+- tone discriminability
+- metastable dynamics
+- head-fixed
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000986/versions/draft/assets/
 name: Auditory cortex Neuropixels recordings and pupil diameter traces from mice during
   passive exposure to pure tones
-publishedBy:
-  endDate: '2025-10-31T19:39:47.771443+00:00'
-  id: urn:uuid:5a91aed5-5f57-4d9d-aa57-b872833de659
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2025-10-31T19:39:47.771443+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:1efbcc38-72e1-4655-96ee-62deb18f1060
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - name: Data analysis and simulation code
   relation: dcite:IsSupplementTo
