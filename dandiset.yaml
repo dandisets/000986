@@ -45,7 +45,7 @@ assetsSummary:
 citation: Papadopoulos, Lia; Jo, Suhyun ; Zumwalt, Kevin; Wehr, Michael; Jaramillo,
   Santiago; McCormick, David A.; Mazzucato, Luca (2026) Auditory cortex Neuropixels
   recordings and pupil diameter traces from mice during passive exposure to pure tones
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000986/draft
+  (Version 0.261020.0031) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000986/0.261020.0031
 contributor:
 - affiliation:
   - identifier: https://ror.org/0293rh119
@@ -184,6 +184,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-09T00:01:24.541721+00:00'
+datePublished: '2026-10-20T00:31:42.933351+00:00'
 description: 'In these experiments, neural activity was recorded from auditory cortex
   of behaving mice during passive tone presentation and arousal state was simultaneously
   monitored using pupillometry. This dataset contains: (1) spike times of sorted units
@@ -195,8 +196,9 @@ description: 'In these experiments, neural activity was recorded from auditory c
   dataset includes 15 sessions from 5 different mice. For more information on the
   data acquisition and processing, please see the preprint associated with this dataset:
   https://doi.org/10.1101/2024.04.04.588209.'
+doi: 10.48324/dandi.000986/0.261020.0031
 ethicsApproval: []
-id: DANDI:000986/draft
+id: DANDI:000986/0.261020.0031
 identifier: DANDI:000986
 keywords:
 - Neuropixels
@@ -211,9 +213,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000986/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000986/0.261020.0031/assets.yaml
 name: Auditory cortex Neuropixels recordings and pupil diameter traces from mice during
   passive exposure to pure tones
+publishedBy:
+  endDate: '2026-10-20T00:31:42.933351+00:00'
+  id: urn:uuid:6aa396d6-f14a-4e30-982a-2bb31969a59d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-20T00:31:42.933351+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0e80c30d-7ebf-4ac5-8daa-879ea687810a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Data analysis and simulation code
   relation: dcite:IsSupplementTo
@@ -226,9 +240,10 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://doi.org/10.1101/2024.04.04.588209
+releaseNotes: Updated metadata.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/000986/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000986/0.261020.0031
+version: 0.261020.0031
 wasGeneratedBy: []
